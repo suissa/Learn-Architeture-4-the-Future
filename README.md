@@ -16,6 +16,17 @@ Each concept has its own definition, operating model, usage guidance and future-
 8. [Polychromatic Language & Data Planes](docs/polychromatic-language-data-planes/README.md) — architecture that preserves semantic contracts across multiple languages, runtimes and data representations.
 9. [Syntropic Architecture](docs/syntropic-architecture/README.md) — architecture that continuously seeks measurable reduction of unnecessary disorder, duplication, coupling and operational waste.
 10. [Autopoietic Architecture](docs/autopoietic-architecture/README.md) — architecture capable of maintaining and regenerating the structures required for continued operation within an explicit boundary.
+11. [EventSourcing]()
+12. [Event-driven]
+13. [Reactive&Autonomous Data Plane]()
+14. [v1.0-Immutablecode]()
+15. [Everything as Code]()
+16. [eXtreme Zero Trust]()
+17. [FullAgenticStack]()
+18. [A2UI + A2A + MCPQ]()
+19. [H2A2H]()
+20. [A2H]()
+21. [ActorModel]()
 
 ## Implementation skill
 
