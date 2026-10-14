@@ -1,0 +1,33 @@
+# Official evidence command registry.
+# Replace the example commands with the commands used by your implementation.
+# The TUI executor must treat these names as stable public contracts.
+
+evidence:
+  run:unitary:evidence: "{linguagem-tal} <unitary-test-command>"
+  run:bdd:evidence: "{linguagem-tal} <bdd-test-command>"
+  run:load:evidence: "{linguagem-tal} <load-test-command>"
+  run:stress:evidence: "{linguagem-tal} <stress-test-command>"
+  run:chaos:evidence: "{linguagem-tal} <chaos-test-command>"
+  run:security:evidence: "{linguagem-tal} <security-test-command>"
+  run:benchmark:evidence: "{linguagem-tal} <benchmark-command>"
+  run:pipeline:evidence: "{linguagem-tal} <pipeline-command>"
+
+simulation:
+  enabled: true
+  simulated_days: 3650
+  seconds_per_simulated_day: 10
+  realtime: true
+
+executor:
+  tui: "ratatui"
+  mouse: true
+  stream_output: true
+  structured_evidence: true
+  cancellation: true
+  preserve_exit_codes: true
+
+limits:
+  max_experiment_duration_seconds: 600
+  max_concurrent_scenarios: 1000
+  max_failure_blast_radius: 1
+  require_rollback: true
